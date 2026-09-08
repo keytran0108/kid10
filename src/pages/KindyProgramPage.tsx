@@ -4,6 +4,10 @@ import LearningOutcomes from '@/components/programs/kindy/LearningOutcomes';
 import TeachingMethod from '@/components/programs/kindy/TeachingMethod';
 import LearningRoadmap from '@/components/programs/kindy/LearningRoadmap';
 import MidPageCTA from '@/components/programs/kindy/MidPageCTA';
+import KindyTestimonials from '@/components/programs/kindy/KindyTestimonials';
+import TeacherPreview from '@/components/programs/kindy/TeacherPreview';
+import LearningSpace from '@/components/programs/kindy/LearningSpace';
+import FinalCTA from '@/components/home/FinalCTA';
 
 export default function KindyProgramPage() {
   return (
@@ -21,7 +25,10 @@ export default function KindyProgramPage() {
       <TeachingMethod />
       <LearningRoadmap />
       <MidPageCTA />
-      {/* TODO Phase 3: Testimonials, TeacherPreview, LearningSpace, FinalCTA */}
+      <KindyTestimonials />
+      <TeacherPreview />
+      <LearningSpace />
+      <FinalCTA />
     </>
   );
 }
