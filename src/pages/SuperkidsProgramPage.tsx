@@ -1,6 +1,9 @@
 import PageBanner from '@/components/shared/PageBanner';
 import CourseOverview from '@/components/programs/superkids/CourseOverview';
 import LearningOutcomes from '@/components/programs/superkids/LearningOutcomes';
+import TeachingMethod from '@/components/programs/superkids/TeachingMethod';
+import LearningRoadmap from '@/components/programs/superkids/LearningRoadmap';
+import MidPageCTA from '@/components/programs/superkids/MidPageCTA';
 
 export default function SuperkidsProgramPage() {
   return (
@@ -16,6 +19,12 @@ export default function SuperkidsProgramPage() {
       />
       <CourseOverview />
       <LearningOutcomes />
+      <TeachingMethod />
+      <LearningRoadmap />
+      <MidPageCTA />
     </>
   );
 }
+
+
+export default SuperkidsProgramPage
